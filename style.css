@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slogan {
+    position: relative;
+    top: -35px;
+}
+.reachme button{
+    transition: 1s;
+}
+
+.reachme button:hover {
+    transform: translateY(5px);
+}
+
+.introheadborder {
+    text-decoration: underline;
+}
+.iconborder {
+    border: none;
+}
+
+.iconsize {
+    font-size: 30px;
+}
+
+.buttonhover i {
+    transition: 1s;
+}
+
+.buttonhover i:hover {
+    background-color: #ddd;
+    transform: translateY(5px);
+}
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.tohover button {
+    transition: 1s;
+}
+
+
+.tohover button:hover {
+    transform: translateY(5px);
+}
+
+.tohover img {
+    transition: 1s;
+}
+
+.tohover img:hover {
+    background-color:;
+    opacity: 0.5;
+}
+.underline {
+    text-decoration: underline;
+    color: #A16BED;
+}
+
+.progressbar {
+    width: 75%;
+    height: 12px;
+    animation: mymove 5s;
+}
+.progressbar1 {
+    width: 50%;
+    height: 12px;
+    animation: mymove1 5s;
+}
+.progressbar2 {
+    width: 50%;
+    height: 12px;
+    animation: mymove2 5s;
+}
+.progressbar3 {
+    width: 25%;
+    height: 12px;
+    animation: mymove3 5s;
+}
+
+@keyframes mymove {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 75%;
+    }
+}
+@keyframes mymove1 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+@keyframes mymove2 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+@keyframes mymove3 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+.myskill {
+    line-height: 45px;
+}
+
+.myskillphoto {
+    width: 100px;
+    height: 100px;
+}
+
+.myskillhover {
+    background-color: #F8F9FA;
+    transition: 1s;
+}
+
+.myskillhover:hover {
+    background-color: #975BEB;
+}
+.forminput {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-top:0px;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+.sendbtn{
+    transition: 1s;
+}
+.sendbtn:hover{
+    transform: translateY(5px);
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Imbue:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- navigation start -->
+    <div class="sticky-top">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm shadow p-3 mb-5 bg-white rounded">
+        <div class="container-fluid container">
+            <a href="#" class="navbar-brand" style="font-family: 'Imbue', serif;font-size: 30px;">
+                SOUNG OO <span style="color: #9457EB;">LWIN</span>
+            </a>
+
+            <div class="nmenu1 navbar-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-none d-md-inline mx-3"><a href="#c1" class="text-secondary">Introduction</a></li>
+                    <li class="nav-item d-none d-md-inline mx-3"><a href="#c2" class="text-secondary">CompletedProjects</a></li>
+                    <li class="nav-item d-none d-md-inline mx-3"><a href="#c3" class="text-secondary">MySkills</a></li>
+                    <li class="nav-item d-none d-md-inline mx-3"><a href="#c4" class="text-secondary">Services</a></li>
+                    <li class="nav-item d-none d-md-inline mx-3"><a href="#c5" class="text-secondary">Contact</a></li>
+                </ul>
+                <a href="#" class="d-inline d-md-none"><i class="fas fa-align-justify text-secondary"  data-toggle="collapse" data-target="#dpdown"></i></a>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="container collapse text-center" id="dpdown">
+        <h3 style="font-family: 'Imbue', serif; color: #343A40;"><a href="#c1" class="text-secondary">Introduction</a></h3>
+        <h3 style="font-family: 'Imbue', serif;"><a href="#c2" class="text-secondary">CompletedProjects</a></h3>
+        <h3 style="font-family: 'Imbue', serif;"><a href="#c3" class="text-secondary">MySkills</a></h3>
+        <h3 style="font-family: 'Imbue', serif;"><a href="#c4" class="text-secondary">Services</a></h3>
+        <h3 style="font-family: 'Imbue', serif;"><a href="#c5" class="text-secondary">Contact</a></h3>
+    </div>
+    <!-- navigation end -->
+
+    <!-- profile picture start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <img src="images/My Profile photo circle.png" class="img-fluid">
+                <p class="slogan text-center" style="font-size: 18px;">Hi! I am <span class="animate" style="color: #9457EB;"></span></p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script>
+            var typed = new Typed('.animate', {
+  strings: [
+      'Soung Oo Lwin.',
+       'Web Developer.',
+       'a Pianist.'
+       ],
+       typeSpeed: 60,
+       backSpeed: 60,
+       loop: true
+});
+        </script>
+    </div>
+    <!-- profile picture end -->
+
+    <!-- introduction start -->
+    <div class="container-fluid bg-light pt-5" data-aos="fade-left" data-aos-duration="1000"  data-aos-mirror="true" id="c1">
+    <div class="container">
+        <h3 class="text-center mb-5" style="font-family: 'Fraunces', serif; color: #A16BED; text-decoration: underline;">INTRODUCTION</h3>
+        <div class="row">
+            <div class="col-12 col-md-6 mt-3">
+                <img src="images/My Photo.jpg" class="img-fluid mb-5">
+            </div>
+            <div class="col-12 col-md-6 mt-3">
+                <h3 style="font-family: 'Open Sans Condensed', sans-serif;">About me</h3>
+                <p style="font-family: 'Open Sans Condensed', sans-serif;">Hello! My name is Soung Oo Lwin.I am now studying web developing and playing piano.</p>
+                <p style="font-family: 'Open Sans Condensed', sans-serif;">I learned Web Development since 2020. I am now learing JavaScript programing language at the moment.</p>
+                <p style="font-family: 'Open Sans Condensed', sans-serif;">I am now studying in Computer University(Mandalay).</p>
+                <p style="font-family: 'Open Sans Condensed', sans-serif;">I want to be a full stack Web Developer and still studying.</p>
+                <div class="text-center mt-5 reachme">
+                    <button class="btn btn-success mb-5" data-toggle="modal" data-target="#item">REACH ME</button>
+                </div>
+
+                <div class="modal" id="item">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Contact Me</h5>
+                                <button class="btn-close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body text-center buttonhover">
+                                <a href="https://www.facebook.com/soung.lwin.75" class="mx-3"><i class="fab fa-facebook-f iconsize"></i></a>
+                                <a href="https://www.instagram.com/soungoolwin/" class="mx-3"><i class="fab fa-instagram iconsize"></i></a>
+                                <a href="https://twitter.com/soung_lwin" class="mx-3"><i class="fab fa-twitter iconsize"></i></a>
+                                <a href="https://www.youtube.com/channel/UCOMkrfU_U63W2qJ2WXz8beA" class="mx-3"><i class="fab fa-youtube iconsize"></i></a>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-success" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- introduction end -->
+
+<!-- client start -->
+    <div class="container-fluid mt-4 bg-light"  data-aos="fade-right" data-aos-duration="1000"  data-aos-mirror="true">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/customer-review png.png" class="image ml-4 mt-3">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="mt-3">10+</h2>
+                            <h4 class="pb-2">Reviews</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/Project.png" class="image ml-4 mt-3">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="mt-3">50+</h2>
+                            <h4 class="pb-2">Projects</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/Website.png" class="image ml-4 mt-3">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="mt-3">15+</h2>
+                            <h4 class="pb-2">Websites</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/client.png" class="image ml-4 mt-3">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="mt-3">0</h2>
+                            <h4 class="pb-2">Clients</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- client end -->
+
+    <!-- completed project start -->
+    <div class="container-fluid bg-light mt-5 pt-5 pb-5" id="c2">
+        <div class="container">
+            <h2 class="text-center underline">Completed Projects</h2>
+            <div class="row tohover">
+                <div class="col-12 col-md-6 mt-5" data-aos="fade-down" data-aos-duration="1000"  data-aos-mirror="true">
+                   <img src="images/CP1.png" class="img-fluid">
+                   <div class="text-center mt-3">
+                       <h3>Admin Dashboard(frount-end)</h3>
+                       <button class="btn" style="background-color: #A16BED;"><a href="https://soungoolwin.github.io/admindashboard/" class="text-light" style="text-decoration: none;">Live Preview</a></button>
+                   </div>
+                </div>
+                <div class="col-12 col-md-6 mt-5" data-aos="fade-down" data-aos-duration="1000"  data-aos-mirror="true">
+                    <img src="images/CP2.png" class="img-fluid">
+                   <div class="text-center mt-3">
+                       <h3>Coffee Shop(frount-end)</h3>
+                       <button class="btn" style="background-color: #A16BED;"><a href="https://soungoolwin.github.io/soungoolwin1.github.io/" class="text-light" style="text-decoration: none;">Live Preview</a></button>
+                   </div>
+                </div>
+
+                <div class="col-12 col-md-6 mt-5" data-aos="fade-up" data-aos-duration="1000"  data-aos-mirror="true">
+                    <img src="images/CP3.png" class="img-fluid">
+                   <div class="text-center mt-3">
+                       <h3>Checkout Form(frount-end)</h3>
+                       <button class="btn" style="background-color: #A16BED;"><a href="https://soungoolwin.github.io/bootstrapexample3/" class="text-light" style="text-decoration: none;">Live Preview</a></button>
+                   </div>
+                </div>
+
+                <div class="col-12 col-md-6 mt-5" data-aos="fade-up" data-aos-duration="1000"  data-aos-mirror="true">
+                    <img src="images/CP4.png" class="img-fluid">
+                   <div class="text-center mt-3">
+                       <h3>Plan(frount-end)</h3>
+                       <button class="btn" style="background-color: #A16BED;"><a href="https://soungoolwin.github.io/bootstrapexample2/" class="text-light" style="text-decoration: none;">Live Preview</a></button>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- completed project end -->
+
+    <!-- my skills start -->
+    <div class="container-fluid bg-light mt-3"  data-aos="fade-right" data-aos-duration="1000"  data-aos-mirror="true" id="c3">
+        <div class="container">
+            <h4 class="text-center pt-3">My <span style="color: #9457EB;">Skills</span></h4>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                   <h5 class="mt-3">HTML</h5>
+                   <div class="progress">
+                       <div class="progress-bar bg-success progressbar"></div>
+                   </div>
+                   <h5 class="mt-3">CSS</h5>
+                   <div class="progress">
+                       <div class="progress-bar bg-info progressbar1"></div>
+                   </div>
+                   <h5 class="mt-3">BootStrap</h5>
+                   <div class="progress">
+                       <div class="progress-bar bg-warning progressbar2"></div>
+                   </div>
+                   <h5 class="mt-3">JavaScript</h5>
+                   <div class="progress mb-5">
+                       <div class="progress-bar bg-secondary progressbar3"></div>
+                   </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="myskill mt-3" style="font-family: 'Open Sans Condensed', sans-serif;">Nearly one year experience in web developing, I learnt HTML,CSS and BootStraps alot. Experienced in Plugins and Library(typed.js, annimate on scroll). I continue learning <span style="color: #A16BED;">JavaScript</span> programing language. On the other side, i am learning A+ and tasting in <span style="color: #A16BED;">linux operating system</span>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- my skills end -->
+
+    <!-- my services start-->
+    <div class="container-fluid bg-light mt-3" data-aos="fade-left" data-aos-duration="1000"  data-aos-mirror="true" id="c4">
+        <div class="container">
+            <h4 class="text-center pt-3" style="text-decoration: underline;">My<span style="color: #A16BED;">Services</span></h4>
+            <div class="row">
+                <div class="col-12 col-md-6 pb-5 pt-5 bg-white mt-3">
+                    <div class="container myskillhover py-5 shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center mr-3">
+                        <img src="images/webdevelopment.png" class="myskillphoto">
+                        <h4 class="mt-5">Web Development</h4>
+                        <p class="my-4">Contact me to create your own website.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 pb-5 pt-5 bg-white mt-3">
+                    <div class="container myskillhover py-5 shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
+                        <img src="images/edit-video.png" class="myskillphoto">
+                        <h4 class="mt-5">Video Editing</h4>
+                        <p class="my-4">Cool video content in new normal life.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 pb-5 pt-5 bg-white mt-3">
+                    <div class="container myskillhover py-5 shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
+                        <img src="images/webdesign.png" class="myskillphoto">
+                        <h4 class="mt-5">Web Design</h4>
+                        <p class="my-4">Cool, Unique costomize Design.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 pb-5 pt-5 bg-white mt-3">
+                    <div class="container myskillhover py-5 shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
+                        <img src="images/piano.png" class="myskillphoto">
+                        <h4 class="mt-5">Playing Piano</h4>
+                        <p class="my-4">May The Music Heal Your Soul.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- my services end -->
+
+    <!-- send me start -->
+    <div class="container-fluid bg-light" data-aos="fade-up" data-aos-duration="1000"  data-aos-mirror="true" id="c5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mx-auto pt-5">
+                    <h2 class="text-center" style="font-family: 'Imbue', serif;font-size: 80px;">Get<span style="color: #975BEB;">In</span>Touch</h2>
+                    <div class="form text-center pb-5">
+                        <input type="text" placeholder="Email" class="forminput shadow p-3 mb-5 bg-white rounded">
+                        <input type="text" placeholder="Subject" class="forminput shadow p-3 mb-5 bg-white rounded"><br>
+                        <button class="btn sendbtn" style="background-color: #A16BED;">SEND</button>
+                        <p style="color: red;">!!!That GetinTouch form is not final process(still developing) that means that does't really active</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- send me end -->
+
+    <!-- footer start -->
+    <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.068);">
+        <div class="container pt-2">
+            <div class="row">
+                <div class="col-5 mx-auto">
+                    <p class="text-center">2021 ©Copyright.All rights reserved.</p>
+                    <p class="text-center"><i class="fas fa-heartbeat mr-2"></i>By Soung</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
